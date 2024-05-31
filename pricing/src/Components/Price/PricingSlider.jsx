@@ -10,7 +10,7 @@ const PricingSlider = ({ value, onChange }) => {
       max={500000}
       step={10000}
       railStyle={{ backgroundColor: '#e5e7eb', height: 8 }}
-      trackStyle={{ backgroundColor: '#22c55e', height: 8 }}  // Green color for the track
+      trackStyle={{ backgroundColor: '#22c55e', height: 8 }}  
       handleStyle={{
         borderColor: '#6366f1',
         height: 24,

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import PricingSlider from '../Price/PricingSlider';
-import './toggle.css'; // Import CSS for custom toggle styling
-
+import './toggle.css'; 
 const PricingPage = () => {
   const [pageviews, setPageviews] = useState(100000);
   const [billingCycle, setBillingCycle] = useState('monthly');
